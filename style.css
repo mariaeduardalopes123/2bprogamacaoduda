@@ -1,5 +1,11 @@
+*{
+     margin: 0;
+     padding: 
+} 
+
+
 .cabecalho {
-     background-color: #881767;
+     background-color: #2a579b;
      color:white;
      display: flex;
      justify-content: space-around;
@@ -8,5 +14,16 @@
 }
 
   .cabecalho-imagem {
-       whith: 10%;
+       width: 10%;
+  }
+  .cabecalho-imagem{
+     width: 20%
+  }
+
+  .cabecalho-lista-item{
+     display: inline-block;
+     margin: 0 16px;
+     font-size: 24px;
+     font-family: 'Courier New', Courier, monospace;
+
   }
